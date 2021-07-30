@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+}
+
+.bg-blue {
+    background-color: #0033C8;
+}
+
+.item-1 {
+    background-color: aqua;
+}
+
+.item-2 {
+    background-color: blanchedalmond;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.column-1 {
+    margin-right: 30px;
+}
+
+@media (max-width: 576px) { 
+    .main {
+        flex-direction: column;
+    }
+
+}

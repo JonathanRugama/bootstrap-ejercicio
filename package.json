@@ -1,0 +1,30 @@
+{
+  "name": "bootstrap-practice",
+  "version": "1.0.0",
+  "description": "bootstrap practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "keywords": [
+    "web",
+    "development",
+    "bootstrap",
+    "practice"
+  ],
+  "author": "Jonathan Rugama",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.14.3"
+  }
+}
